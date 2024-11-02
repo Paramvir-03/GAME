@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="w0TLMk1ACpkbxFE2l1aN">
+    <mxGraphModel dx="890" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="75VRmWS1CHYbOgO0necu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="760" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="75VRmWS1CHYbOgO0necu-2" target="75VRmWS1CHYbOgO0necu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-2" value="scene 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="75VRmWS1CHYbOgO0necu-3" target="75VRmWS1CHYbOgO0necu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-3" value="scene 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="75VRmWS1CHYbOgO0necu-4" target="75VRmWS1CHYbOgO0necu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-4" value="scene 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-5" value="scene 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-7" value="Description :&amp;nbsp;After pressing &quot;Start Game,&quot; the player is shown a canvas with a swimming pool background. The player controls a diver (controlled using arrow keys or W/A/S/D), and toys start falling from the top of the screen.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Elements :&amp;nbsp;&lt;/div&gt;&lt;li&gt;Diver character appears at the bottom center of the canvas.&lt;/li&gt;&lt;li&gt;Toys (balls) drop randomly from the top of the screen, shrinking as they fall.&lt;/li&gt;&lt;li&gt;A timer begins counting down (based on selected time).&lt;/li&gt;&lt;li&gt;Score is displayed in the top left or center above the canvas.&lt;/li&gt;&lt;li&gt;Timer display (top right or next to score).&lt;/li&gt;&lt;li&gt;Sound: &quot;Game Start&quot; sound plays.&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="180" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-8" value="Description :&amp;nbsp;The player moves the diver to collect toys by pressing the space bar. Successfully collecting a toy increases the score and plays a &quot;happy&quot; sound. If a toy reaches the top without being collected, an &quot;unhappy&quot; sound plays.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Elements :&amp;nbsp;&lt;/div&gt;&lt;li&gt;The diver’s movement is visually represented with an image facing the correct direction.&lt;/li&gt;&lt;li&gt;Toys shrink while falling, stay at the bottom for a few seconds, then grow and rise back to the top.&lt;/li&gt;&lt;li&gt;When a toy is collected, the score increases, and a new toy drops.&lt;/li&gt;&lt;li&gt;Audio: &quot;Happy&quot; sound plays when toys are collected, and &quot;Unhappy&quot; sound plays when the toy escapes to the top.&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="190" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-9" value="Description :&amp;nbsp;When the timer runs out, the game ends. A “Game Over” screen appears, displaying the final score, a feedback message based on performance, and a &quot;Restart Game&quot; button.&amp;nbsp;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Elements :&amp;nbsp;&lt;/div&gt;&lt;li&gt;&quot;Game Over&quot; overlay appears in the center.&lt;/li&gt;&lt;li&gt;Final score and feedback message displayed (e.g., “Good job!” or “Keep practicing!”).&lt;/li&gt;&lt;li&gt;&quot;Restart Game&quot; button appears.&lt;/li&gt;&lt;li&gt;Audio: “Game Over” sound plays.&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="150" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Description :&amp;nbsp;The player sees the game’s title, along with a “Start Game” button and two additional buttons to select the game duration (1 minute or 2 minutes).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Elements :&amp;nbsp;&lt;/div&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Title of the game (&quot;Swimming Pool Toy Collection Game&quot;).&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Button options: &quot;Start Game&quot;, &quot;1 Minute&quot;, &quot;2 Minutes&quot;.&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Audio: Soft background sound starts playing&amp;nbsp;&lt;/li&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="140" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="75VRmWS1CHYbOgO0necu-15" value="STORYBOARD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
